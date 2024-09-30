@@ -4045,7 +4045,7 @@ export const questions = [
     link: "https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not",
   },
   {
-    question: "Which of the following lines contain valid Python code?",
+    question: "Which of the following lines contain valid Python code? <br><br>(Choose two)",
     image: "images/image739.png",
     answers: [
       { text: "A", correct: false },
