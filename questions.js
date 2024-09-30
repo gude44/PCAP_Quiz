@@ -2503,7 +2503,7 @@ export const questions = [
     explanation:
       "Explanation:<br><br>In the code snippet, the variable `a` is assigned the string `'hello'`. A function `x` is then defined, requiring two parameters, `a` and `b`. Inside this function, the first character of `a` is accessed and returned. <br><br>When `print(x(a))` is called, it tries to invoke the function `x` with only one argument, `a`. Since `x` expects two arguments but receives only one, Python raises a `TypeError`. <br><br>The error message will be: TypeError: x() missing 1 required positional argument: 'b'",
     link: "https://www.w3schools.com/python/python_functions.asp",
-  },*/
+  },
   {
     question: "What is the expected behavior of the following snippet?",
     image: "images/image92.png",
@@ -4999,7 +4999,7 @@ export const questions = [
     explanation:
       "Explanation:<br><br>The code first calculates 3 % 1, which is 0, and assigns this value to the variable x. Then, it uses a conditional expression to set y to 1 if x is greater than 0, otherwise to 0. <br><br>Since x is 0, which is not greater than 0, y is assigned 0. Finally, the code prints y, so the output is 0.",
     link: "https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex",
-  },
+  },*/
   {
     question: "What is the expected behavior of the following code?",
     image: "images/image169.png",
