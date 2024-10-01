@@ -4999,7 +4999,7 @@ export const questions = [
     explanation:
       "Explanation:<br><br>The code first calculates 3 % 1, which is 0, and assigns this value to the variable x. Then, it uses a conditional expression to set y to 1 if x is greater than 0, otherwise to 0. <br><br>Since x is 0, which is not greater than 0, y is assigned 0. Finally, the code prints y, so the output is 0.",
     link: "https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex",
-  },*/
+  },
   {
     question: "What is the expected behavior of the following code?",
     image: "images/image169.png",
@@ -6446,7 +6446,7 @@ export const questions = [
     ],
     explanation: `Explanation:<br><br>The code tries to convert the string '12.8' to an integer using the int() function.<br><br> However, since the string contains a decimal point, which is not a valid digit in an integer, a ValueError is raised with the message "invalid literal for int() with base 10: '12.8'".`,
     link: "https://docs.python.org/3/library/functions.html#int",
-  },
+  },*/
   {
     question:
       "Consider the following code. Which of the assignments are valid? <br><br>(Choose two)",
