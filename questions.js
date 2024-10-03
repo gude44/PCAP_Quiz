@@ -5992,7 +5992,7 @@ export const questions = [
     ],
     explanation: `Explanation:<br><br>This code defines a class hierarchy with Shape as the base class and Triangle as a derived class. Neither class has methods or attributes.<br><br>The code uses print() statements to show the relationship between the two classes. The first print statement indicates that Triangle is a subclass of Shape. The second shows that Shape is a superclass of Triangle.<br><br>Key points:<br><br>• Triangle.__name__ returns "Triangle".<br><br>• Shape.__name__ returns "Shape".<br><br> • Triangle.__bases__ returns a tuple of base classes, which includes Shape.<br><br>• Triangle.__bases__[0].__name__ returns "Shape", the base class of Triangle`,
     link: "https://docs.python.org/3/tutorial/classes.html",
-  },
+  },*/
   {
     question: "What is the output of the following code?",
     image: "images/image207.png",
@@ -6446,7 +6446,7 @@ export const questions = [
     ],
     explanation: `Explanation:<br><br>The code tries to convert the string '12.8' to an integer using the int() function.<br><br> However, since the string contains a decimal point, which is not a valid digit in an integer, a ValueError is raised with the message "invalid literal for int() with base 10: '12.8'".`,
     link: "https://docs.python.org/3/library/functions.html#int",
-  },*/
+  },
   {
     question:
       "Consider the following code. Which of the assignments are valid? <br><br>(Choose two)",
