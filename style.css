@@ -19,7 +19,7 @@ nav .container {
   display: none; /* Hides the button by default */
   background: none;
   border: none;
-  color: #ffffffac;;
+  color: #ffffffac;
   font-size: 1.5rem; /* Font size for the button */
   cursor: pointer; /* Shows a pointer cursor on hover */
 }
@@ -47,7 +47,7 @@ nav ul {
 
 /* Navigation link styles */
 nav a {
-  color: #ffffffac;; /* Text color */
+  color: #ffffffac; /* Text color */
   text-decoration: none; /* No underline */
   transition: color 0.3s; /* Smooth color transition on hover */
 }
@@ -161,7 +161,6 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.315);
 }
 
-
 #timer i {
   margin-right: 5px;
   animation: rotate 2s linear infinite; /* Adds a rotation animation */
@@ -177,7 +176,6 @@ body {
   }
 }
 
-
 #score-counter {
   font-family: "Whitney", "Helvetica Neue", Helvetica;
   font-size: 13px;
@@ -187,7 +185,6 @@ body {
   border-radius: 0px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.315);
 }
-
 
 .label {
   color: rgb(255, 255, 255); /* Color for the labels */
@@ -206,7 +203,7 @@ body {
 /* Styles for the header */
 .app h1 {
   font-size: 300px; /* Sets the font size of the header */
-  color: #ffffffac;; /* Sets the text color to white */
+  color: #ffffffac; /* Sets the text color to white */
   font-weight: 600; /* Makes the text bold */
   border-bottom: 3px solid #000000; /* Adds a black border below the header */
   padding-bottom: 20px; /* Adds padding below the header to separate it from the border */
@@ -223,7 +220,7 @@ body {
 /* Styles for the subheading within the quiz */
 .quiz h2 {
   font-size: 17px; /* Sets the font size */
-  color: #ffffffac;; /* Sets the text color to white */
+  color: #ffffffac; /* Sets the text color to white */
   font-weight: 500; /* Makes the text semi-bold */
   margin: 20px 0; /* Adds a margin of 20px on top and bottom */
   text-align: left; /* Aligns the text to the left */
@@ -232,7 +229,12 @@ body {
 
 /* Styles for answer buttons */
 .btn {
-  background: rgba(255, 255, 255, 0.625); /* Sets a nearly opaque white background */
+  background: rgba(
+    255,
+    255,
+    255,
+    0.625
+  ); /* Sets a nearly opaque white background */
   font-size: 14px; /* Sets the font size */
   color: #222; /* Sets the text color to dark gray */
   font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -575,4 +577,3 @@ body {
   transform: scale(1.1); /* Enlarges the buttons on hover */
   transition: 0.1s; /* Adds a transition effect for the hover state */
 }
-
